@@ -107,7 +107,6 @@ public class StudentRecord {
                    
                     FileWriter writer = new FileWriter(fileName, true);
                     writer.write(studentRecord.Record() + "\n");
-                    
                     writer.close();
 
                     
