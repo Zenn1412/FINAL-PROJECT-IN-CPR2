@@ -1,0 +1,43 @@
+Student No: 102455
+Degree: BSIT
+Year Level: 1
+Name: Agapito, Paulo Sarona
+Gender: M
+Prelim Grade: 88.0
+Midterm Grade: 85.0
+Final Grade: 82.0
+Final Term Grade: 85.0
+
+the Final term grade is: 85.0
+Student No: 102455
+Degree: BSCS
+Year Level: 2
+Name: sjdfsjf, asdfaf sadjfsd
+Gender: M
+Prelim Grade: 78.0
+Midterm Grade: 68.0
+Final Grade: 68.0
+Final Term Grade: 71.33333333333333
+
+the Final term grade is: 71.33333333333333
+Student No: 123123
+Degree: BSCS
+Year Level: 4
+Name: dfdfd, asdfff fdfdff
+Gender: M
+Prelim Grade: 966.0
+Midterm Grade: 69.0
+Final Grade: 88.0
+Final Term Grade: 374.3333333333333
+
+the Final term grade is: 374.3333333333333
+Student No: 1233
+Degree: BSIT
+Year Level: 1
+Name: ag, pau sar
+Gender: M
+Prelim Grade: 98.0
+Midterm Grade: 76.0
+Final Grade: 96.0
+Final Term Grade: 90.0
+
