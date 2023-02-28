@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
@@ -109,9 +111,21 @@ public class StudentRecord {
                     writer.write(studentRecord.Record() + "\n");
                     writer.close();
 
-                    
-
-
+                    Scanner scanner = new Scanner(System.in);
+                    System.out.print("Enter O to Open Student Record: ");
+                    System.out.print("Enter file name: ");
+                    String fileName1 = scanner.nextLine();
+            
+                    try (BufferedReader reader = new BufferedReader(new FileReader(fileName1))) {
+                        String line;
+                        while ((line = reader.readLine()) != null) {
+                            System.out.println(line);
+                        }
+                    } catch (IOException e) {
+                        System.err.println("Error reading file: " + e.getMessage());
+                    }
+                
+            
                     System.out.print("Press Q to quit, C to continue: ");
                     String choice = input.nextLine();
                     if (choice.equalsIgnoreCase("Q")) {
@@ -122,7 +136,9 @@ public class StudentRecord {
                 }
             }
         }
-    
+      
+              
+       
 }
 
 }
